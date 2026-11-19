@@ -411,6 +411,7 @@ class UiStore {
     } else {
       this.rightSidebar = panel;
     }
+    this.persist();
   };
 
   @action
